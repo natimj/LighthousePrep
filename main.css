@@ -1,0 +1,112 @@
+
+header {
+	font-family: 'Pacifico', cursive;
+	color: DeepPink;
+	font-size: 30px;
+	text-align: center;
+	margin:0px;
+	padding:0px;
+	text-shadow: 2.5px 2.5px Grey;	
+	display: block;
+}
+header h2{
+	justify-content: center;
+	width: 60%;
+	display:inline-block;
+}
+a {
+	text-decoration: none;
+	color:DeepPink;
+}
+.contactme{
+	width: 5.25em;
+	height: 2em;
+	border-radius:10px;
+	box-shadow: 4px 4px Grey;
+	border: solid 2px Black;
+	background-color: White;
+	display: inline-flex;
+
+}
+.contactme p{
+	margin: auto;
+}
+
+.contactme p:hover {
+	color: Pink;
+}
+
+body{ 
+	background-color: Snow; 
+	justify-content: center;
+}
+.intro{
+	margin:20px;
+	padding: 20px;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	background-image: url('http://i0.wp.com/www.glutenfreecanteen.com/wp-content/uploads/2011/06/FD_RR_brownies_banner.jpg');
+	background-position: center;
+	border-radius: 1%;
+}
+.intro h1{
+	font-size:50px;
+	color: LightBlue;
+	text-shadow: 2px 2px Grey;
+
+}
+
+.intro h2 {
+	font-size: 30px;
+	color:White;
+	
+}
+
+.ingredients{
+	font-family:'Lato';
+	width: 25%;
+	float:left;
+	margin-left: 50px;
+
+
+}
+.prep {
+	font-family:'Lato';
+	float:right;
+	margin-right: 40px;	
+
+}
+.gallery {
+	margin-top:20px;
+	display:block;
+	justify-content: center;
+}
+
+.imgone{
+	margin:20px;
+	border-width: 5px solid White;
+}
+
+.imgone .imgtwo{
+	border-radius: 10%;
+	width:20%;
+	float: left;
+	margin: 2em;
+	justify-content: center;
+	border-width: 5px solid White;
+}
+
+.highlighted {
+    text-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+
+.pink {
+    text-shadow: 0 0 8px Hotpink;
+    cursor:pointer;
+}
+.highlighted2 {
+    cursor:pointer;
+        box-shadow: 0 0 8px #FFD700;
+    }
+
